@@ -3,7 +3,7 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1>🚀 Vercel自動デプロイテスト</h1>
+      <h1>🚀 Vercel自動デプロイテスト - 黄色バージョン！</h1>
       
       <div className="status-card">
         <h2>✅ デプロイ成功！</h2>
@@ -32,6 +32,7 @@ export default function Home() {
       <div className="test-area">
         <h3>🧪 テスト用カウンター</h3>
         <p>このセクションに何か追加して、デプロイが反映されているかテストしてください。</p>
+        <p><strong>✅ 自動デプロイテスト成功！</strong> この変更が表示されていれば、Vercelの自動デプロイが正常に動作しています。</p>
       </div>
     </main>
   )
